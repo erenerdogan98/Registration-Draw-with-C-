@@ -1,0 +1,9 @@
+C:\Users\lenovo\source\repos\CustomerRegistration-Draw\Promotion.Core\bin\Debug\Promotion.Core.dll
+C:\Users\lenovo\source\repos\CustomerRegistration-Draw\Promotion.Core\bin\Debug\Promotion.Core.pdb
+C:\Users\lenovo\source\repos\CustomerRegistration-Draw\Promotion.Core\obj\Debug\Promotion.Core.csproj.AssemblyReference.cache
+C:\Users\lenovo\source\repos\CustomerRegistration-Draw\Promotion.Core\obj\Debug\Promotion.Core.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\CustomerRegistration-Draw\Promotion.Core\obj\Debug\Promotion.Core.dll
+C:\Users\lenovo\source\repos\CustomerRegistration-Draw\Promotion.Core\obj\Debug\Promotion.Core.pdb
+C:\Users\lenovo\source\repos\CustomerRegistration-Draw\Promotion.Core\bin\Debug\Entities.dll
+C:\Users\lenovo\source\repos\CustomerRegistration-Draw\Promotion.Core\bin\Debug\Entities.pdb
+C:\Users\lenovo\source\repos\CustomerRegistration-Draw\Promotion.Core\obj\Debug\Promotion.Core.csproj.CopyComplete

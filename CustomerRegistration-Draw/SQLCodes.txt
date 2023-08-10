@@ -1,0 +1,65 @@
+create database RegistrationDraw
+go
+
+create table SystemStore
+(
+ID int identity(1,1), -- start to 1 and going one by one
+Definition nvarchar(150),
+Address nvarchar(250),
+AuthorizedPerson nvarchar(100),
+UserName nvarchar(50) unique,  
+Password nvarchar(30)
+)
+
+insert into SystemStore values ('Tavsanlý AVM Store -1','Tavsanlý','Eren ERDOÐAN','eren.erdogan','123') 
+insert into SystemStore values ('Tavsanlý AVM Store -2','Tavsanlý','Mehmet Bayýr','mehmet.bayýr','1234')
+insert into SystemStore values ('Kütahya AVM Store ','Kütahya','Ahmet Daban ','ahmet.daban','123')
+
+go
+
+Create table PotentialCustomer
+(
+ID int identity(1,1) primary key,
+TCKimlikNo nvarchar(15),
+Name nvarchar(50),
+Surname nvarchar(50),
+BirthDay DateTime,
+Gender int,
+Job nvarchar(100),
+EmailAddress nvarchar (150),
+EmailConfirmation bit,
+PhoneNumber nvarchar (15),
+PhoneConfirmation bit,
+CreationDate Datetime,
+CreatorStore int
+)
+
+go
+
+create table PromotionProduct
+(
+ID int identity(1,1) primary key,
+Definition nvarchar(150),
+Explanation nvarchar(150),
+ValidityDate datetime,
+UsingStatus bit
+)
+
+insert into PromotionProduct values ('%10' , ' Discount valid in all stores' ,' 10.09.2023',0)
+insert into PromotionProduct values ('%20' , ' Discount valid in all stores' ,' 10.09.2023',0)
+insert into PromotionProduct values ('%30' , ' Discount valid in all stores' ,' 10.09.2023',0)
+insert into PromotionProduct values ('%40' , ' Discount valid in all stores' ,' 10.09.2023',0)
+insert into PromotionProduct values ('%50' , ' Discount valid in all stores' ,' 10.09.2023',0)
+insert into PromotionProduct values ('%60' , ' Discount valid in all stores' ,' 10.09.2023',0)
+insert into PromotionProduct values ('%70' , ' Discount valid in all stores' ,' 10.09.2023',0)
+
+select top 42 * from PromotionProduct where UsingStatus = 0 order by NEWID()	
+
+create table ParticipantPromotion -- for reference
+(
+ID int identity(1,1) primary key,
+PotentialCustomerID int,
+PromotionProductID int,
+CreationDate datetime,
+StoreID int
+)

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerRegistrationDraw.Core", "CustomerRegistrationDraw.Core", "{BE31D265-87AA-458A-B836-32B9E05D50FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promotion.Core", "Promotion.Core\Promotion.Core.csproj", "{6048C189-9A51-447F-B8E6-88D2E1713D1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerRegistrationDraw.BusinessLogicLayer", "CustomerRegistrationDraw.BusinessLogicLayer", "{D0B48B83-4F74-4DA4-8487-938F94C594D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerRegistrationDraw.Entities", "CustomerRegistrationDraw.Entities", "{5FAF0931-AEEF-4767-8BC2-F1C054023B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promotion.BLL", "Promotion.BLL\Promotion.BLL.csproj", "{46921C53-E8F9-4B49-9C18-13B8D9261323}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TSQL", "TSQL", "{BDCA15E2-6962-4DD1-A20C-28563C8178C2}"
+	ProjectSection(SolutionItems) = preProject
+		SQLCodes.txt = SQLCodes.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{874C034D-0149-4F3E-BF44-7538292B5A46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerRegistrationDraw.UI", "CustomerRegistrationDraw.UI", "{F0F4B10B-EB38-48FC-8102-A7A25D225973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promotion.UI.Customer.WinForm", "Promotion.UI.WinForm\Promotion.UI.Customer.WinForm.csproj", "{DEDFC9F5-0FA3-4CCE-85CB-9B293F87A3D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6048C189-9A51-447F-B8E6-88D2E1713D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6048C189-9A51-447F-B8E6-88D2E1713D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6048C189-9A51-447F-B8E6-88D2E1713D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6048C189-9A51-447F-B8E6-88D2E1713D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46921C53-E8F9-4B49-9C18-13B8D9261323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46921C53-E8F9-4B49-9C18-13B8D9261323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46921C53-E8F9-4B49-9C18-13B8D9261323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46921C53-E8F9-4B49-9C18-13B8D9261323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874C034D-0149-4F3E-BF44-7538292B5A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874C034D-0149-4F3E-BF44-7538292B5A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874C034D-0149-4F3E-BF44-7538292B5A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874C034D-0149-4F3E-BF44-7538292B5A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEDFC9F5-0FA3-4CCE-85CB-9B293F87A3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDFC9F5-0FA3-4CCE-85CB-9B293F87A3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDFC9F5-0FA3-4CCE-85CB-9B293F87A3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDFC9F5-0FA3-4CCE-85CB-9B293F87A3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6048C189-9A51-447F-B8E6-88D2E1713D1B} = {BE31D265-87AA-458A-B836-32B9E05D50FF}
+		{46921C53-E8F9-4B49-9C18-13B8D9261323} = {D0B48B83-4F74-4DA4-8487-938F94C594D3}
+		{874C034D-0149-4F3E-BF44-7538292B5A46} = {5FAF0931-AEEF-4767-8BC2-F1C054023B9A}
+		{DEDFC9F5-0FA3-4CCE-85CB-9B293F87A3D3} = {F0F4B10B-EB38-48FC-8102-A7A25D225973}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8EA8C86-32B3-461D-B69C-72F23031B0D5}
+	EndGlobalSection
+EndGlobal
